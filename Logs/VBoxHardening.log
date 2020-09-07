@@ -5281,3 +5281,20 @@
 1cc0.29c4: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0xc0000034 'C:\Windows\System32\thai.dll'
 1cc0.29c4: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffdfbdd0000 'C:\Windows\system32\shell32.dll'
 1cc0.29c4: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffdfbdd0000 'C:\Windows\system32\shell32.dll'
+1cc0.13bc: supR3HardenedDllNotificationCallback: Unload 00007ffddbc10000 LB 0x00135000 C:\Windows\System32\Windows.StateRepositoryPS.dll [flags=0x0]
+1cc0.13bc: supR3HardenedDllNotificationCallback: Unload 00007ffdceb40000 LB 0x0009e000 C:\Windows\System32\PortableDeviceApi.dll [flags=0x0]
+1cc0.13bc: supR3HardenedDllNotificationCallback: Unload 00007ffdce120000 LB 0x000bd000 C:\Windows\system32\Windows.Storage.Search.dll [flags=0x0]
+1cc0.13bc: supR3HardenedDllNotificationCallback: Unload 00007ffde5ec0000 LB 0x00025000 C:\Windows\System32\EhStorAPI.dll [flags=0x0]
+1cc0.13bc: supR3HardenedDllNotificationCallback: Unload 00007ffdf5540000 LB 0x00013000 C:\Windows\System32\WTSAPI32.dll [flags=0x0]
+1cc0.13bc: supR3HardenedDllNotificationCallback: Unload 00007ffde3640000 LB 0x00064000 C:\Windows\System32\PlayToDevice.dll [flags=0x0]
+1cc0.4750: supR3HardenedDllNotificationCallback: Unload 00007ffdef730000 LB 0x0000d000 C:\Program Files\Oracle\VirtualBox\VBoxGuestPropSvc.DLL [flags=0x0]
+1cc0.880: supR3HardenedDllNotificationCallback: Unload 00007ffdef760000 LB 0x0000c000 C:\Program Files\Oracle\VirtualBox\VBoxGuestControlSvc.DLL [flags=0x0]
+1cc0.46a4: supR3HardenedDllNotificationCallback: Unload 00007ffdef130000 LB 0x00014000 C:\Program Files\Oracle\VirtualBox\VBoxSharedFolders.DLL [flags=0x0]
+1cc0.2024: supR3HardenedDllNotificationCallback: Unload 00007ffdf7a90000 LB 0x0000d000 C:\Program Files\Oracle\VirtualBox\VBoxDragAndDropSvc.DLL [flags=0x0]
+1cc0.3f50: supR3HardenedDllNotificationCallback: Unload 00007ffdf7b00000 LB 0x0000f000 C:\Program Files\Oracle\VirtualBox\VBoxSharedClipboard.DLL [flags=0x0]
+1cc0.44fc: supR3HardenedDllNotificationCallback: Unload 00007ffdb08a0000 LB 0x009e4000 C:\Program Files\Oracle\VirtualBox\VBoxDD.DLL [flags=0x0]
+1cc0.44fc: supR3HardenedDllNotificationCallback: Unload 00007ffde8360000 LB 0x00066000 C:\Program Files\Oracle\VirtualBox\VBoxDDU.dll [flags=0x0]
+1cc0.44fc: supR3HardenedDllNotificationCallback: Unload 00007ffdb0040000 LB 0x0085c000 C:\Program Files\Oracle\VirtualBox\VBoxDD2.dll [flags=0x0]
+1cc0.29c4: Terminating the normal way: rcExit=0
+2610.3558: supR3HardNtChildWaitFor[2]: Quitting: ExitCode=0x0 (rcNtWait=0x0, rcNt1=0x0, rcNt2=0x103, rcNt3=0x103, 1997542 ms, the end);
+2db8.3164: supR3HardNtChildWaitFor[1]: Quitting: ExitCode=0x0 (rcNtWait=0x0, rcNt1=0x0, rcNt2=0x103, rcNt3=0x103, 1997962 ms, the end);

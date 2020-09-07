@@ -1381,3 +1381,890 @@
 00:01:47.940339 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=000000000cdb0000 w=800 h=600 bpp=32 cbLine=0xC80 flags=0x1 origin=0,0
 00:01:51.010225 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 800x600 if necessary
 00:01:51.269547 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:33:11.291156 NAT: DHCP released IP address 10.0.2.15
+00:33:12.631977 AIOMgr: Async flushes not supported
+00:33:12.632605 OHCI: Software reset
+00:33:12.633536 HDA: Disabled DMA position buffer
+00:33:12.701922 TM: Switching TSC mode from 'RealTscOffset' to 'Dynamic'
+00:33:12.702902 ACPI: Entering S5 power state (power down)
+00:33:12.702933 Changing the VM state from 'RUNNING' to 'POWERING_OFF'
+00:33:12.702940 ****************** Guest state at power off for VCpu 0 ******************
+00:33:12.702971 Guest CPUM (VCPU 0) state: 
+00:33:12.702983 rax=0000000000001401 rbx=ffffffff9bb9efcc rcx=0000000000000002 rdx=0000000000004004
+00:33:12.702986 rsi=0000000000001401 rdi=0000000000004004 r8 =0000000000000000 r9 =0000000000000000
+00:33:12.702987 r10=0000000000000000 r11=0000000000000001 r12=0000000000000010 r13=0000000000000010
+00:33:12.702988 r14=0000000000000010 r15=0000000000000000
+00:33:12.702989 rip=ffffffff9a1ac6ca rsp=ffff993f401f7d38 rbp=0000000000001401 iopl=0         nv up di pl nz na po nc
+00:33:12.702991 cs={0010 base=0000000000000000 limit=ffffffff flags=0000a09b}
+00:33:12.702992 ds={0000 base=0000000000000000 limit=ffffffff flags=0001c000}
+00:33:12.702993 es={0000 base=0000000000000000 limit=ffffffff flags=0001c000}
+00:33:12.702993 fs={0000 base=00007ff9bec62740 limit=ffffffff flags=0001c000}
+00:33:12.702994 gs={0000 base=ffff923afae00000 limit=ffffffff flags=0001c000}
+00:33:12.702995 ss={0018 base=0000000000000000 limit=ffffffff flags=0000c093}
+00:33:12.702996 cr0=0000000080050033 cr2=00007ff9bed5cde0 cr3=0000000072e90006 cr4=00000000000606f0
+00:33:12.702998 dr0=0000000000000000 dr1=0000000000000000 dr2=0000000000000000 dr3=0000000000000000
+00:33:12.702999 dr4=0000000000000000 dr5=0000000000000000 dr6=00000000fffe0ff0 dr7=0000000000000400
+00:33:12.703000 gdtr=fffffe0000001000:007f  idtr=fffffe0000000000:0fff  eflags=00000046
+00:33:12.703001 ldtr={0000 base=00000000 limit=ffffffff flags=0001c000}
+00:33:12.703002 tr  ={0040 base=fffffe0000003000 limit=00004087 flags=0000008b}
+00:33:12.703003 SysEnter={cs=0010 eip=ffffffff9a801520 esp=fffffe0000003000}
+00:33:12.703027 xcr=0000000000000007 xcr1=0000000000000000 xss=0000000000000000 (fXStateMask=0000000000000007)
+00:33:12.703028 FCW=037f FSW=0000 FTW=0000 FOP=0000 MXCSR=00001f80 MXCSR_MASK=0000ffff
+00:33:12.703028 FPUIP=00000000 CS=0000 Rsrvd1=0000  FPUDP=00000000 DS=0000 Rsvrd2=0000
+00:33:12.703029 ST(0)=FPR0={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:33:12.703031 ST(1)=FPR1={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:33:12.703032 ST(2)=FPR2={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:33:12.703033 ST(3)=FPR3={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:33:12.703034 ST(4)=FPR4={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:33:12.703034 ST(5)=FPR5={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:33:12.703035 ST(6)=FPR6={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:33:12.703036 ST(7)=FPR7={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:33:12.703037 YMM0 =00000000'00000000'00000000'00000000'66666666'66666666'66666666'66666666
+00:33:12.703038 YMM1 =00000000'00000000'00000000'00000000'ffff0000'00000000'ffff0000'ff000000
+00:33:12.703039 YMM2 =00000000'00000000'00000000'00000000'ffff0000'00000000'ffff0000'00000000
+00:33:12.703040 YMM3 =00000000'00000000'00000000'00000000'74276e61'630f0c0a'00697766'6e2b3a64
+00:33:12.703041 YMM4 =00000000'00000000'00000000'00000000'2f2f2f2f'2f2f2f2f'2f2f2f2f'2f2f2f2f
+00:33:12.703042 YMM5 =00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:33:12.703042 YMM6 =00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:33:12.703043 YMM7 =00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:33:12.703044 YMM8 =00000000'00000000'00000000'00000000'00005582'458f2ad2'00006977'666e3a64
+00:33:12.703045 YMM9 =00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:33:12.703046 YMM10=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:33:12.703046 YMM11=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:33:12.703047 YMM12=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:33:12.703048 YMM13=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:33:12.703049 YMM14=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:33:12.703050 YMM15=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:33:12.703050 EFER         =0000000000000d01
+00:33:12.703051 PAT          =0007040600070406
+00:33:12.703051 STAR         =0023001000000000
+00:33:12.703052 CSTAR        =ffffffff9a8015b0
+00:33:12.703052 LSTAR        =ffffffff9a800010
+00:33:12.703053 SFMASK       =0000000000047700
+00:33:12.703053 KERNELGSBASE =0000000000000000
+00:33:12.703055 ***
+00:33:12.703080 VCPU[0] hardware virtualization state:
+00:33:12.703080 fLocalForcedActions          = 0x0
+00:33:12.703080 No/inactive hwvirt state
+00:33:12.703082 ***
+00:33:12.703085 Guest paging mode (VCPU #0):  AMD64+NX (changed 586908 times), A20 enabled (changed 2 times)
+00:33:12.703087 Shadow paging mode (VCPU #0): EPT
+00:33:12.703098 Host paging mode:             AMD64+NX
+00:33:12.703099 ***
+00:33:12.703101 Active Timers (pVM=0000000007990000)
+00:33:12.703102 pTimerR3         offNext  offPrev  offSched Clock               Time             Expire HzHint State                     Description
+00:33:12.703104 000000000b221fb0 00000860 00000000 00000000 Real           211785568          211785569      0 2-ACTIVE                  VGA Refresh Timer
+00:33:12.703116 000000000b222810 ffffff80 fffff7a0 00000000 Real           211785568          211785589      0 2-ACTIVE                  EMT Yielder
+00:33:12.703118 000000000b222790 00000000 00000080 00000000 Real           211785568          211785879      0 2-ACTIVE                  CPU Load Timer
+00:33:12.703119 000000000b222130 ffffda30 00000000 00000000 Virt       1978553757326      1980533955407      0 2-ACTIVE                  E1000 Link Up Timer
+00:33:12.703122 000000000b21fb60 00000000 000025d0 00000000 Virt       1978553759400      1982551575436      0 2-ACTIVE                  Heartbeat flatlined
+00:33:12.703123 000000000b21b630 00000270 00000000 00000000 VrSy       1978553562256      1978554523961    316 2-ACTIVE                  APIC Timer 0
+00:33:12.703125 000000000b21b8a0 00006df0 fffffd90 00000000 VrSy       1978553563977      1978990000000      0 2-ACTIVE                  MC146818 RTC (CMOS) - Second
+00:33:12.703127 000000000b222690 00000000 ffff9210 00000000 VrSy       1978553566160      2469575640570      0 2-ACTIVE                  ACPI PM Timer
+00:33:12.703130 ***
+00:33:12.703132 Guest GDT (GCAddr=fffffe0000001000 limit=7f):
+00:33:12.703137 0008 - 0000ffff 00cf9b00 - base=00000000 limit=ffffffff dpl=0 CodeER Accessed Present Page 32-bit 
+00:33:12.703138 0010 - 0000ffff 00af9b00 - base=00000000 limit=ffffffff dpl=0 CodeER Accessed Present Page 16-bit 
+00:33:12.703139 0018 - 0000ffff 00cf9300 - base=00000000 limit=ffffffff dpl=0 DataRW Accessed Present Page 32-bit 
+00:33:12.703140 0020 - 0000ffff 00cffb00 - base=00000000 limit=ffffffff dpl=3 CodeER Accessed Present Page 32-bit 
+00:33:12.703140 0028 - 0000ffff 00cff300 - base=00000000 limit=ffffffff dpl=3 DataRW Accessed Present Page 32-bit 
+00:33:12.703141 0030 - 0000ffff 00affb00 - base=00000000 limit=ffffffff dpl=3 CodeER Accessed Present Page 16-bit 
+00:33:12.703143 0040 - 30004087 00008b00 - base=00003000 limit=00004087 dpl=0 TSS32Busy Present 16-bit 
+00:33:12.703145 0078 - 00000000 0040f500 - base=00000000 limit=00000000 dpl=3 DataDownRO Accessed Present 32-bit 
+00:33:12.703146 ************** End of Guest state at power off ***************
+00:33:12.740120 PDMR3PowerOff: 36 965 060 ns run time
+00:33:12.740157 Changing the VM state from 'POWERING_OFF' to 'OFF'
+00:33:12.740269 Console: Machine state changed to 'Stopping'
+00:33:12.740616 Console::powerDown(): A request to power off the VM has been issued (mMachineState=Stopping, InUninit=0)
+00:33:12.741601 Changing the VM state from 'OFF' to 'DESTROYING'
+00:33:12.741618 ************************* Statistics *************************
+00:33:12.741626 /CPUM/MSR-Totals/Reads                 55 times
+00:33:12.741631 /CPUM/MSR-Totals/ReadsRaisingGP         0 times
+00:33:12.741635 /CPUM/MSR-Totals/ReadsUnknown           0 times
+00:33:12.741639 /CPUM/MSR-Totals/Writes                15 times
+00:33:12.741642 /CPUM/MSR-Totals/WritesRaisingGP        1 times
+00:33:12.741645 /CPUM/MSR-Totals/WritesToIgnoredBits        1 times
+00:33:12.741649 /CPUM/MSR-Totals/WritesUnknown          0 times
+00:33:12.741652 /Devices/8237A/DmaRun                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:33:12.741657 /Devices/VMMDev/BalloonChunks           0 count
+00:33:12.741661 /Devices/VMMDev/FastIrqAckR3            0 count
+00:33:12.741664 /Devices/VMMDev/FastIrqAckRZ            0 count
+00:33:12.741668 /Devices/VMMDev/LargeReqBufAllocs        0 count
+00:33:12.741671 /Devices/VMMDev/SlowIrqAck              0 count
+00:33:12.741674 /Devices/e1000#0/ReceiveBytes    10394481 bytes
+00:33:12.741678 /Devices/e1000#0/TransmitBytes     214754 bytes
+00:33:12.741681 /Devices/e1000#0/iStatIntLost           0 ns
+00:33:12.741685 /Devices/e1000#0/iStatIntLostOne        0 ns
+00:33:12.741688 /Devices/e1000#0/u64ArmedAt             0 ns
+00:33:12.741692 /Devices/e1000#0/uStatDescCtx        2510 ns
+00:33:12.741695 /Devices/e1000#0/uStatDescDat        2722 ns
+00:33:12.741698 /Devices/e1000#0/uStatDescLeg          27 ns
+00:33:12.741702 /Devices/e1000#0/uStatInt            5750 ns
+00:33:12.741705 /Devices/e1000#0/uStatIntEarly          0 ns
+00:33:12.741708 /Devices/e1000#0/uStatIntICS          885 ns
+00:33:12.741711 /Devices/e1000#0/uStatIntIMS          468 ns
+00:33:12.741715 /Devices/e1000#0/uStatIntLate         124 ns
+00:33:12.741720 /Devices/e1000#0/uStatIntLower        261 ns
+00:33:12.741724 /Devices/e1000#0/uStatIntMasked      1427 ns
+00:33:12.741727 /Devices/e1000#0/uStatIntRDTR           0 ns
+00:33:12.741730 /Devices/e1000#0/uStatIntRXDMT0         0 ns
+00:33:12.741734 /Devices/e1000#0/uStatIntRx          8775 ns
+00:33:12.741737 /Devices/e1000#0/uStatIntSkip        7671 ns
+00:33:12.741740 /Devices/e1000#0/uStatIntTXQE           0 ns
+00:33:12.741743 /Devices/e1000#0/uStatIntTry        14848 ns
+00:33:12.741746 /Devices/e1000#0/uStatIntTx          2537 ns
+00:33:12.741749 /Devices/e1000#0/uStatMaxTxDelay        0 ns
+00:33:12.741752 /Devices/e1000#0/uStatNoIntICR          0 ns
+00:33:12.741755 /Devices/e1000#0/uStatRAD               0 ns
+00:33:12.741758 /Devices/e1000#0/uStatRID               0 ns
+00:33:12.741761 /Devices/e1000#0/uStatRxFrm          8775 ns
+00:33:12.741764 /Devices/e1000#0/uStatTAD               0 ns
+00:33:12.741767 /Devices/e1000#0/uStatTID               0 ns
+00:33:12.741770 /Devices/e1000#0/uStatTx1514         2537 ns
+00:33:12.741773 /Devices/e1000#0/uStatTx16384           0 ns
+00:33:12.741776 /Devices/e1000#0/uStatTx2962            0 ns
+00:33:12.741779 /Devices/e1000#0/uStatTx32768           0 ns
+00:33:12.741782 /Devices/e1000#0/uStatTx4410            0 ns
+00:33:12.741785 /Devices/e1000#0/uStatTx5858            0 ns
+00:33:12.741788 /Devices/e1000#0/uStatTx7306            0 ns
+00:33:12.741791 /Devices/e1000#0/uStatTx8754            0 ns
+00:33:12.741794 /Devices/e1000#0/uStatTxDelayExp        0 ns
+00:33:12.741796 /Devices/e1000#0/uStatTxDelayed         0 ns
+00:33:12.741799 /Devices/e1000#0/uStatTxFrm          2537 ns
+00:33:12.741802 /Devices/e1000#0/uStatTxIDE             0 ns
+00:33:12.741805 /Devices/e1000#0/uStatTxLarge           0 ns
+00:33:12.741808 /Devices/e1000#0/uStatTxNoRS         2722 ns
+00:33:12.741811 /Devices/mc146818/Irq                   0 times
+00:33:12.741815 /Devices/mc146818/TimerCB               0 times
+00:33:12.741818 /Devices/vga/HgmsiMdaCgaAccesses        0 times
+00:33:12.741821 /Devices/vga/VMSVGA/Cmd/3dActivateSurface        0 times
+00:33:12.741824 /Devices/vga/VMSVGA/Cmd/3dBeginQuery        0 times
+00:33:12.741827 /Devices/vga/VMSVGA/Cmd/3dBlitSurfaceToScreenProf        0 ticks/call (           0 ticks,       0 times, max         0, min       0)
+00:33:12.741831 /Devices/vga/VMSVGA/Cmd/3dClear         0 times
+00:33:12.741834 /Devices/vga/VMSVGA/Cmd/3dContextDefine        0 times
+00:33:12.741837 /Devices/vga/VMSVGA/Cmd/3dContextDestroy        0 times
+00:33:12.741840 /Devices/vga/VMSVGA/Cmd/3dDeactivateSurface        0 times
+00:33:12.741843 /Devices/vga/VMSVGA/Cmd/3dDrawPrimitives        0 times
+00:33:12.741846 /Devices/vga/VMSVGA/Cmd/3dEndQuery        0 times
+00:33:12.741849 /Devices/vga/VMSVGA/Cmd/3dGenerateMipmaps        0 times
+00:33:12.741852 /Devices/vga/VMSVGA/Cmd/3dPresent        0 times
+00:33:12.741859 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Using fallback buffer since no source bitmap is provided
+00:33:12.741872 /Devices/vga/VMSVGA/Cmd/3dPresentReadBack        0 times
+00:33:12.741877 /Devices/vga/VMSVGA/Cmd/3dSetClipPlane        0 times
+00:33:12.741881 /Devices/vga/VMSVGA/Cmd/3dSetLightData        0 times
+00:33:12.741883 /Devices/vga/VMSVGA/Cmd/3dSetLightEnable        0 times
+00:33:12.741886 /Devices/vga/VMSVGA/Cmd/3dSetMaterial        0 times
+00:33:12.741889 /Devices/vga/VMSVGA/Cmd/3dSetRenderState        0 times
+00:33:12.741892 /Devices/vga/VMSVGA/Cmd/3dSetRenderTarget        0 times
+00:33:12.741895 /Devices/vga/VMSVGA/Cmd/3dSetScissorRect        0 times
+00:33:12.741898 /Devices/vga/VMSVGA/Cmd/3dSetShader        0 times
+00:33:12.741901 /Devices/vga/VMSVGA/Cmd/3dSetShaderConst        0 times
+00:33:12.741903 /Devices/vga/VMSVGA/Cmd/3dSetTextureState        0 times
+00:33:12.741906 /Devices/vga/VMSVGA/Cmd/3dSetTransform        0 times
+00:33:12.741909 /Devices/vga/VMSVGA/Cmd/3dSetViewPort        0 times
+00:33:12.741912 /Devices/vga/VMSVGA/Cmd/3dSetZRange        0 times
+00:33:12.741916 /Devices/vga/VMSVGA/Cmd/3dShaderDefine        0 times
+00:33:12.741920 /Devices/vga/VMSVGA/Cmd/3dShaderDestroy        0 times
+00:33:12.741923 /Devices/vga/VMSVGA/Cmd/3dSurfaceCopy        0 times
+00:33:12.741926 /Devices/vga/VMSVGA/Cmd/3dSurfaceDefine        0 times
+00:33:12.741929 /Devices/vga/VMSVGA/Cmd/3dSurfaceDefineV2        0 times
+00:33:12.741931 /Devices/vga/VMSVGA/Cmd/3dSurfaceDestroy        0 times
+00:33:12.741934 /Devices/vga/VMSVGA/Cmd/3dSurfaceDma        0 times
+00:33:12.741937 /Devices/vga/VMSVGA/Cmd/3dSurfaceScreen        0 times
+00:33:12.741940 /Devices/vga/VMSVGA/Cmd/3dSurfaceStretchBlt        0 times
+00:33:12.741943 /Devices/vga/VMSVGA/Cmd/3dWaitForQuery        0 times
+00:33:12.741946 /Devices/vga/VMSVGA/Cmd/AnnotationCopy        0 times
+00:33:12.741949 /Devices/vga/VMSVGA/Cmd/AnnotationFill        0 times
+00:33:12.741951 /Devices/vga/VMSVGA/Cmd/BlitGmrFbToScreen        0 times
+00:33:12.741954 /Devices/vga/VMSVGA/Cmd/BlitScreentoGmrFb        0 times
+00:33:12.741957 /Devices/vga/VMSVGA/Cmd/DefineAlphaCursor        0 times
+00:33:12.741960 /Devices/vga/VMSVGA/Cmd/DefineCursor        0 times
+00:33:12.741963 /Devices/vga/VMSVGA/Cmd/DefineGmr2        0 times
+00:33:12.741966 /Devices/vga/VMSVGA/Cmd/DefineGmr2/Free        0 times
+00:33:12.741969 /Devices/vga/VMSVGA/Cmd/DefineGmr2/Modify        0 times
+00:33:12.741972 /Devices/vga/VMSVGA/Cmd/DefineGmrFb        0 times
+00:33:12.741974 /Devices/vga/VMSVGA/Cmd/DefineScreen        0 times
+00:33:12.741977 /Devices/vga/VMSVGA/Cmd/DestroyScreen        0 times
+00:33:12.741980 /Devices/vga/VMSVGA/Cmd/Escape          0 times
+00:33:12.741983 /Devices/vga/VMSVGA/Cmd/Fence           0 times
+00:33:12.741986 /Devices/vga/VMSVGA/Cmd/InvalidCmd        0 times
+00:33:12.741989 /Devices/vga/VMSVGA/Cmd/RemapGmr2        0 times
+00:33:12.741992 /Devices/vga/VMSVGA/Cmd/RemapGmr2/Modify        0 times
+00:33:12.741995 /Devices/vga/VMSVGA/Cmd/Update          0 times
+00:33:12.741998 /Devices/vga/VMSVGA/Cmd/UpdateVerbose        0 times
+00:33:12.742001 /Devices/vga/VMSVGA/EmtDelayOnBusyFifo        0 ticks/call (           0 ticks,       0 times, max         0, min       0)
+00:33:12.742004 /Devices/vga/VMSVGA/FifoCommands        0 times
+00:33:12.742007 /Devices/vga/VMSVGA/FifoCursorFetchAgain        0 times
+00:33:12.742010 /Devices/vga/VMSVGA/FifoCursorNoChange        0 times
+00:33:12.742013 /Devices/vga/VMSVGA/FifoCursorPosition        0 times
+00:33:12.742016 /Devices/vga/VMSVGA/FifoCursorVisiblity        0 times
+00:33:12.742019 /Devices/vga/VMSVGA/FifoErrors          0 times
+00:33:12.742022 /Devices/vga/VMSVGA/FifoExtendedSleep 55114060568 ticks/call (7054599752828 ticks,     128 times, max 55442104673, min       0)
+00:33:12.742026 /Devices/vga/VMSVGA/FifoStalls          0 ticks/call (           0 ticks,       0 times, max         0, min       0)
+00:33:12.742030 /Devices/vga/VMSVGA/FifoTodoTimeout        0 times
+00:33:12.742032 /Devices/vga/VMSVGA/FifoTodoWoken        0 times
+00:33:12.742036 /Devices/vga/VMSVGA/FifoUnknownCommands        0 times
+00:33:12.742039 /Devices/vga/VMSVGA/FifoWatchdogWakeUps        0 times
+00:33:12.742042 /Devices/vga/VMSVGA/Reg/BitsPerPixelRead        0 times
+00:33:12.742045 /Devices/vga/VMSVGA/Reg/BitsPerPixelWrite        0 times
+00:33:12.742048 /Devices/vga/VMSVGA/Reg/BlueMaskRead        0 times
+00:33:12.742050 /Devices/vga/VMSVGA/Reg/BusyRead        0 times
+00:33:12.742053 /Devices/vga/VMSVGA/Reg/BusyWrite        0 times
+00:33:12.742056 /Devices/vga/VMSVGA/Reg/BytesPerLineRead        0 times
+00:33:12.742059 /Devices/vga/VMSVGA/Reg/CapabilitesRead        0 times
+00:33:12.742062 /Devices/vga/VMSVGA/Reg/ConfigDoneRead        0 times
+00:33:12.742065 /Devices/vga/VMSVGA/Reg/ConfigDoneWrite        0 times
+00:33:12.742067 /Devices/vga/VMSVGA/Reg/CursorXxxxRead        0 times
+00:33:12.742070 /Devices/vga/VMSVGA/Reg/CursorXxxxWrite        0 times
+00:33:12.742073 /Devices/vga/VMSVGA/Reg/DepthRead        0 times
+00:33:12.742076 /Devices/vga/VMSVGA/Reg/DepthWrite        0 times
+00:33:12.742079 /Devices/vga/VMSVGA/Reg/DisplayHeightRead        0 times
+00:33:12.742083 /Devices/vga/VMSVGA/Reg/DisplayHeightWrite        0 times
+00:33:12.742086 /Devices/vga/VMSVGA/Reg/DisplayIdRead        0 times
+00:33:12.742089 /Devices/vga/VMSVGA/Reg/DisplayIdWrite        0 times
+00:33:12.742092 /Devices/vga/VMSVGA/Reg/DisplayIsPrimaryRead        0 times
+00:33:12.742095 /Devices/vga/VMSVGA/Reg/DisplayIsPrimaryWrite        0 times
+00:33:12.742098 /Devices/vga/VMSVGA/Reg/DisplayPositionXRead        0 times
+00:33:12.742100 /Devices/vga/VMSVGA/Reg/DisplayPositionXWrite        0 times
+00:33:12.742103 /Devices/vga/VMSVGA/Reg/DisplayPositionYRead        0 times
+00:33:12.742106 /Devices/vga/VMSVGA/Reg/DisplayPositionYWrite        0 times
+00:33:12.742109 /Devices/vga/VMSVGA/Reg/DisplayWidthRead        0 times
+00:33:12.742112 /Devices/vga/VMSVGA/Reg/DisplayWidthWrite        0 times
+00:33:12.742115 /Devices/vga/VMSVGA/Reg/EnableRead        0 times
+00:33:12.742118 /Devices/vga/VMSVGA/Reg/EnableWrite        0 times
+00:33:12.742120 /Devices/vga/VMSVGA/Reg/FbOffsetRead        0 times
+00:33:12.742123 /Devices/vga/VMSVGA/Reg/FbSizeRead        0 times
+00:33:12.742126 /Devices/vga/VMSVGA/Reg/FbStartRead        0 times
+00:33:12.742129 /Devices/vga/VMSVGA/Reg/GmrDescriptorWrite        0 times
+00:33:12.742132 /Devices/vga/VMSVGA/Reg/GmrDescriptorWrite/Errors        0 times
+00:33:12.742135 /Devices/vga/VMSVGA/Reg/GmrDescriptorWrite/Free        0 times
+00:33:12.742138 /Devices/vga/VMSVGA/Reg/GmrIdRead        0 times
+00:33:12.742141 /Devices/vga/VMSVGA/Reg/GmrIdWrite        0 times
+00:33:12.742144 /Devices/vga/VMSVGA/Reg/GmrMaxDescriptorLengthRead        0 times
+00:33:12.742147 /Devices/vga/VMSVGA/Reg/GmrMaxIdsRead        0 times
+00:33:12.742149 /Devices/vga/VMSVGA/Reg/GmrsMaxPagesRead        0 times
+00:33:12.742152 /Devices/vga/VMSVGA/Reg/GreenMaskRead        0 times
+00:33:12.742156 /Devices/vga/VMSVGA/Reg/GuestIdRead        0 times
+00:33:12.742159 /Devices/vga/VMSVGA/Reg/GuestIdWrite        0 times
+00:33:12.742162 /Devices/vga/VMSVGA/Reg/HeightRead        0 times
+00:33:12.742164 /Devices/vga/VMSVGA/Reg/HeightWrite        0 times
+00:33:12.742167 /Devices/vga/VMSVGA/Reg/HostBitsPerPixelRead        0 times
+00:33:12.742170 /Devices/vga/VMSVGA/Reg/IdRead          0 times
+00:33:12.742173 /Devices/vga/VMSVGA/Reg/IdWrite         0 times
+00:33:12.742176 /Devices/vga/VMSVGA/Reg/IrqMaskRead        0 times
+00:33:12.742179 /Devices/vga/VMSVGA/Reg/IrqMaskWrite        0 times
+00:33:12.742181 /Devices/vga/VMSVGA/Reg/MaxHeightRead        0 times
+00:33:12.742184 /Devices/vga/VMSVGA/Reg/MaxWidthRead        0 times
+00:33:12.742187 /Devices/vga/VMSVGA/Reg/MemRegsRead        0 times
+00:33:12.742190 /Devices/vga/VMSVGA/Reg/MemSizeRead        0 times
+00:33:12.742193 /Devices/vga/VMSVGA/Reg/MemStartRead        0 times
+00:33:12.742196 /Devices/vga/VMSVGA/Reg/MemorySizeRead        0 times
+00:33:12.742199 /Devices/vga/VMSVGA/Reg/NumDisplaysRead        0 times
+00:33:12.742201 /Devices/vga/VMSVGA/Reg/NumDisplaysWrite        0 times
+00:33:12.742204 /Devices/vga/VMSVGA/Reg/NumGuestDisplaysRead        0 times
+00:33:12.742207 /Devices/vga/VMSVGA/Reg/NumGuestDisplaysWrite        0 times
+00:33:12.742210 /Devices/vga/VMSVGA/Reg/PaletteRead        0 times
+00:33:12.742213 /Devices/vga/VMSVGA/Reg/PaletteWrite        0 times
+00:33:12.742216 /Devices/vga/VMSVGA/Reg/PitchLockRead        0 times
+00:33:12.742218 /Devices/vga/VMSVGA/Reg/PitchLockWrite        0 times
+00:33:12.742221 /Devices/vga/VMSVGA/Reg/PseudoColorWrite        0 times
+00:33:12.742224 /Devices/vga/VMSVGA/Reg/PsuedoColorRead        0 times
+00:33:12.742227 /Devices/vga/VMSVGA/Reg/ReadOnlyWrite        0 times
+00:33:12.742230 /Devices/vga/VMSVGA/Reg/RedMaskRead        0 times
+00:33:12.742232 /Devices/vga/VMSVGA/Reg/ScratchRead        0 times
+00:33:12.742235 /Devices/vga/VMSVGA/Reg/ScratchSizeRead        0 times
+00:33:12.742238 /Devices/vga/VMSVGA/Reg/ScratchWrite        0 times
+00:33:12.742241 /Devices/vga/VMSVGA/Reg/SyncRead        0 times
+00:33:12.742244 /Devices/vga/VMSVGA/Reg/SyncWrite        0 times
+00:33:12.742247 /Devices/vga/VMSVGA/Reg/TopRead         0 times
+00:33:12.742251 /Devices/vga/VMSVGA/Reg/TopWrite        0 times
+00:33:12.742254 /Devices/vga/VMSVGA/Reg/TracesRead        0 times
+00:33:12.742256 /Devices/vga/VMSVGA/Reg/TracesWrite        0 times
+00:33:12.742259 /Devices/vga/VMSVGA/Reg/UnknownRead        0 times
+00:33:12.742262 /Devices/vga/VMSVGA/Reg/UnknownWrite        0 times
+00:33:12.742265 /Devices/vga/VMSVGA/Reg/VramSizeRead        0 times
+00:33:12.742268 /Devices/vga/VMSVGA/Reg/WidthRead        0 times
+00:33:12.742270 /Devices/vga/VMSVGA/Reg/WidthWrite        0 times
+00:33:12.742273 /Devices/vga/VMSVGA/Reg/WriteOnlyRead        0 times
+00:33:12.742280 /EM/CPU0/ExitHashing/Used               0 times
+00:33:12.742283 /EM/CPU0/ExitOpt/Exec                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:33:12.742287 /EM/CPU0/ExitOpt/ExecInstructions        0 times
+00:33:12.742290 /EM/CPU0/ExitOpt/ExecSavedExit          0 times
+00:33:12.742293 /EM/CPU0/ExitOpt/Probe                  0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:33:12.742296 /EM/CPU0/ExitOpt/ProbeInstructions        0 times
+00:33:12.742299 /EM/CPU0/ExitOpt/ProbedExecWithMax        0 times
+00:33:12.742302 /EM/CPU0/ExitOpt/ProbedNormal           0 times
+00:33:12.742305 /EM/CPU0/ExitOpt/ProbedToRing3          0 times
+00:33:12.742309 /GMM/ChunkTlbHits                   34761 times
+00:33:12.742312 /GMM/ChunkTlbMisses                   163 times
+00:33:12.742319 /GMM/VM/Allocated/cBasePages       140871 pages
+00:33:12.742322 /GMM/VM/Allocated/cFixedPages           0 pages
+00:33:12.742325 /GMM/VM/Allocated/cShadowPages          0 pages
+00:33:12.742328 /GMM/VM/Reserved/cBasePages        524446 pages
+00:33:12.742331 /GMM/VM/Reserved/cFixedPages         8452 pages
+00:33:12.742334 /GMM/VM/Reserved/cShadowPages           1 pages
+00:33:12.742337 /GMM/VM/cBalloonedPages                 0 pages
+00:33:12.742340 /GMM/VM/cMaxBalloonedPages              0 pages
+00:33:12.742343 /GMM/VM/cPrivatePages              140871 pages
+00:33:12.742346 /GMM/VM/cReqActuallyBalloonedPages        0 pages
+00:33:12.742349 /GMM/VM/cReqBalloonedPages              0 pages
+00:33:12.742351 /GMM/VM/cReqDeflatePages                0 pages
+00:33:12.742354 /GMM/VM/cShareableModules               0 count
+00:33:12.742357 /GMM/VM/cSharedPages                    0 pages
+00:33:12.742360 /GMM/VM/enmPolicy                       1 
+00:33:12.742363 /GMM/VM/enmPriority                     2 
+00:33:12.742366 /GMM/VM/fBallooningEnabled       false    
+00:33:12.742369 /GMM/VM/fMayAllocate             true     
+00:33:12.742372 /GMM/VM/fSharedPagingEnabled     false    
+00:33:12.742375 /GMM/cAllocatedPages               140871 pages
+00:33:12.742378 /GMM/cBalloonedPages                    0 pages
+00:33:12.742381 /GMM/cChunks                          276 count
+00:33:12.742384 /GMM/cDuplicatePages                    0 pages
+00:33:12.742387 /GMM/cFreedChunks                       0 count
+00:33:12.742390 /GMM/cLeftBehindSharedPages             0 pages
+00:33:12.742393 /GMM/cMaxPages                   4294967295 pages
+00:33:12.742396 /GMM/cOverCommittedPages                0 pages
+00:33:12.742399 /GMM/cReservedPages                532899 pages
+00:33:12.742402 /GMM/cShareableModules                  0 count
+00:33:12.742405 /GMM/cSharedPages                       0 pages
+00:33:12.742408 /GMM/idFreeGeneration            4611686018427387775 
+00:33:12.742473 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.742496 /GVMM/EMTs                              1 calls
+00:33:12.742496 /GVMM/HostCPUs                         12 calls
+00:33:12.742496 /GVMM/HostCpus/0                        0 
+00:33:12.742496 /GVMM/HostCpus/0/CurTimerHz             0 Hz
+00:33:12.742496 /GVMM/HostCpus/0/DesiredHz              0 Hz
+00:33:12.742496 /GVMM/HostCpus/0/PPTChanges             0 times
+00:33:12.742497 /GVMM/HostCpus/0/PPTStarts              0 times
+00:33:12.742497 /GVMM/HostCpus/0/idxCpuSet              0 
+00:33:12.742497 /GVMM/HostCpus/1                        1 
+00:33:12.742497 /GVMM/HostCpus/1/CurTimerHz             0 Hz
+00:33:12.742497 /GVMM/HostCpus/1/DesiredHz              0 Hz
+00:33:12.742497 /GVMM/HostCpus/1/PPTChanges             0 times
+00:33:12.742497 /GVMM/HostCpus/1/PPTStarts              0 times
+00:33:12.742497 /GVMM/HostCpus/1/idxCpuSet              1 
+00:33:12.742497 /GVMM/HostCpus/10                      10 
+00:33:12.742497 /GVMM/HostCpus/10/CurTimerHz            0 Hz
+00:33:12.742497 /GVMM/HostCpus/10/DesiredHz             0 Hz
+00:33:12.742497 /GVMM/HostCpus/10/PPTChanges            0 times
+00:33:12.742497 /GVMM/HostCpus/10/PPTStarts             0 times
+00:33:12.742497 /GVMM/HostCpus/10/idxCpuSet            10 
+00:33:12.742497 /GVMM/HostCpus/11                      11 
+00:33:12.742497 /GVMM/HostCpus/11/CurTimerHz            0 Hz
+00:33:12.742497 /GVMM/HostCpus/11/DesiredHz             0 Hz
+00:33:12.742497 /GVMM/HostCpus/11/PPTChanges            0 times
+00:33:12.742497 /GVMM/HostCpus/11/PPTStarts             0 times
+00:33:12.742497 /GVMM/HostCpus/11/idxCpuSet            11 
+00:33:12.742497 /GVMM/HostCpus/2                        2 
+00:33:12.742497 /GVMM/HostCpus/2/CurTimerHz             0 Hz
+00:33:12.742497 /GVMM/HostCpus/2/DesiredHz              0 Hz
+00:33:12.742497 /GVMM/HostCpus/2/PPTChanges             0 times
+00:33:12.742497 /GVMM/HostCpus/2/PPTStarts              0 times
+00:33:12.742497 /GVMM/HostCpus/2/idxCpuSet              2 
+00:33:12.742497 /GVMM/HostCpus/3                        3 
+00:33:12.742497 /GVMM/HostCpus/3/CurTimerHz             0 Hz
+00:33:12.742670 /GVMM/HostCpus/3/DesiredHz              0 Hz
+00:33:12.742673 /GVMM/HostCpus/3/PPTChanges             0 times
+00:33:12.742676 /GVMM/HostCpus/3/PPTStarts              0 times
+00:33:12.742678 /GVMM/HostCpus/3/idxCpuSet              3 
+00:33:12.742681 /GVMM/HostCpus/4                        4 
+00:33:12.742684 /GVMM/HostCpus/4/CurTimerHz             0 Hz
+00:33:12.742687 /GVMM/HostCpus/4/DesiredHz              0 Hz
+00:33:12.742690 /GVMM/HostCpus/4/PPTChanges             0 times
+00:33:12.742692 /GVMM/HostCpus/4/PPTStarts              0 times
+00:33:12.742695 /GVMM/HostCpus/4/idxCpuSet              4 
+00:33:12.742698 /GVMM/HostCpus/5                        5 
+00:33:12.742701 /GVMM/HostCpus/5/CurTimerHz             0 Hz
+00:33:12.742704 /GVMM/HostCpus/5/DesiredHz              0 Hz
+00:33:12.742707 /GVMM/HostCpus/5/PPTChanges             0 times
+00:33:12.742709 /GVMM/HostCpus/5/PPTStarts              0 times
+00:33:12.742712 /GVMM/HostCpus/5/idxCpuSet              5 
+00:33:12.742715 /GVMM/HostCpus/6                        6 
+00:33:12.742718 /GVMM/HostCpus/6/CurTimerHz             0 Hz
+00:33:12.742720 /GVMM/HostCpus/6/DesiredHz              0 Hz
+00:33:12.742723 /GVMM/HostCpus/6/PPTChanges             0 times
+00:33:12.742726 /GVMM/HostCpus/6/PPTStarts              0 times
+00:33:12.742729 /GVMM/HostCpus/6/idxCpuSet              6 
+00:33:12.742732 /GVMM/HostCpus/7                        7 
+00:33:12.742734 /GVMM/HostCpus/7/CurTimerHz             0 Hz
+00:33:12.742737 /GVMM/HostCpus/7/DesiredHz              0 Hz
+00:33:12.742740 /GVMM/HostCpus/7/PPTChanges             0 times
+00:33:12.742757 /GVMM/HostCpus/7/PPTStarts              0 times
+00:33:12.742760 /GVMM/HostCpus/7/idxCpuSet              7 
+00:33:12.742762 /GVMM/HostCpus/8                        8 
+00:33:12.742765 /GVMM/HostCpus/8/CurTimerHz             0 Hz
+00:33:12.742768 /GVMM/HostCpus/8/DesiredHz              0 Hz
+00:33:12.742771 /GVMM/HostCpus/8/PPTChanges             0 times
+00:33:12.742773 /GVMM/HostCpus/8/PPTStarts              0 times
+00:33:12.742776 /GVMM/HostCpus/8/idxCpuSet              8 
+00:33:12.742779 /GVMM/HostCpus/9                        9 
+00:33:12.742781 /GVMM/HostCpus/9/CurTimerHz             0 Hz
+00:33:12.742784 /GVMM/HostCpus/9/DesiredHz              0 Hz
+00:33:12.742787 /GVMM/HostCpus/9/PPTChanges             0 times
+00:33:12.742790 /GVMM/HostCpus/9/PPTStarts              0 times
+00:33:12.742794 /GVMM/HostCpus/9/idxCpuSet              9 
+00:33:12.742796 /GVMM/Sum/HaltBlocking            1138804 calls
+00:33:12.742815 /GVMM/Sum/HaltCalls               1511192 calls
+00:33:12.742818 /GVMM/Sum/HaltNotBlocking          372388 calls
+00:33:12.742821 /GVMM/Sum/HaltTimeouts             565810 calls
+00:33:12.742824 /GVMM/Sum/HaltWakeUps                   0 calls
+00:33:12.742827 /GVMM/Sum/PokeCalls                  3734 calls
+00:33:12.742830 /GVMM/Sum/PokeNotBusy                 115 calls
+00:33:12.742833 /GVMM/Sum/PollCalls                     0 calls
+00:33:12.742836 /GVMM/Sum/PollHalts                     0 calls
+00:33:12.742839 /GVMM/Sum/PollWakeUps                   0 calls
+00:33:12.742842 /GVMM/Sum/WakeUpCalls              696658 calls
+00:33:12.742845 /GVMM/Sum/WakeUpNotHalted          677516 calls
+00:33:12.742848 /GVMM/Sum/WakeUpWakeUps                 0 calls
+00:33:12.742851 /GVMM/VM/HaltBlocking             1138804 calls
+00:33:12.742854 /GVMM/VM/HaltCalls                1511192 calls
+00:33:12.742870 /GVMM/VM/HaltNotBlocking           372388 calls
+00:33:12.742873 /GVMM/VM/HaltTimeouts              565810 calls
+00:33:12.742876 /GVMM/VM/HaltWakeUps                    0 calls
+00:33:12.742878 /GVMM/VM/PokeCalls                   3734 calls
+00:33:12.742881 /GVMM/VM/PokeNotBusy                  115 calls
+00:33:12.742884 /GVMM/VM/PollCalls                      0 calls
+00:33:12.742887 /GVMM/VM/PollHalts                      0 calls
+00:33:12.742890 /GVMM/VM/PollWakeUps                    0 calls
+00:33:12.742893 /GVMM/VM/WakeUpCalls               696658 calls
+00:33:12.742895 /GVMM/VM/WakeUpNotHalted           677516 calls
+00:33:12.742898 /GVMM/VM/WakeUpWakeUps                  0 calls
+00:33:12.742901 /GVMM/VMs                               1 calls
+00:33:12.742904 /HGCM/FailedPageListLocking             0 count
+00:33:12.742907 /HGCM/LargeCmdAllocs                    0 count
+00:33:12.742926 /HGCM/MsgArrival                        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:33:12.742930 /HGCM/MsgCompletion                     0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:33:12.742933 /HGCM/MsgTotal                          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:33:12.742936 /HM/CPU0/Exit/HostNmiInGC               0 times
+00:33:12.742939 /HM/CPU0/Exit/HostNmiInGCIpi            0 times
+00:33:12.742942 /HM/CPU0/Switch/Preempting              0 times
+00:33:12.742945 /IEM/CPU0/CodeTlb-Misses                0 count
+00:33:12.742948 /IEM/CPU0/CodeTlb-PhysRev        ffffffffffff9c00 
+00:33:12.742951 /IEM/CPU0/CodeTlb-Revision       fffff38000000000 
+00:33:12.742954 /IEM/CPU0/CodeTlb-SlowReads             0 
+00:33:12.742957 /IEM/CPU0/DataTlb-Misses                0 count
+00:33:12.742960 /IEM/CPU0/DataTlb-PhysRev        ffffffffffff9c00 
+00:33:12.742977 /IEM/CPU0/DataTlb-Revision       fffff38000000000 
+00:33:12.742980 /IEM/CPU0/cInstructions           1576742 count
+00:33:12.742983 /IEM/CPU0/cLongJumps                 1642 bytes
+00:33:12.742986 /IEM/CPU0/cPendingCommit                0 bytes
+00:33:12.742988 /IEM/CPU0/cPotentialExits         1750268 count
+00:33:12.742991 /IEM/CPU0/cRetAspectNotImplemented        0 count
+00:33:12.742994 /IEM/CPU0/cRetErrStatuses               0 count
+00:33:12.742997 /IEM/CPU0/cRetInfStatuses          690409 count
+00:33:12.743000 /IEM/CPU0/cRetInstrNotImplemented        0 count
+00:33:12.743019 /IEM/CPU0/cbWritten               6100275 bytes
+00:33:12.743023 /IOM/MmioMappingsStale                  0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:33:12.743026 /MM/HyperHeap/cbFree              2003152 bytes
+00:33:12.743029 /MM/HyperHeap/cbHeap              2096832 bytes
+00:33:12.743032 /PDM/BlkCache/cbCached                  0 bytes
+00:33:12.743035 /PDM/BlkCache/cbCachedFru               0 bytes
+00:33:12.743038 /PDM/BlkCache/cbCachedMruIn             0 bytes
+00:33:12.743041 /PDM/BlkCache/cbCachedMruOut            0 bytes
+00:33:12.743044 /PDM/BlkCache/cbMax               5242880 bytes
+00:33:12.743047 /PDM/CritSects/8237A#0Auto/ContentionR3        0 times
+00:33:12.743050 /PDM/CritSects/8237A#0Auto/ContentionRZLock        0 times
+00:33:12.743053 /PDM/CritSects/8237A#0Auto/ContentionRZUnlock        0 times
+00:33:12.743056 /PDM/CritSects/AHCI#0/ContentionR3        0 times
+00:33:12.743059 /PDM/CritSects/AHCI#0/ContentionRZLock        0 times
+00:33:12.743062 /PDM/CritSects/AHCI#0/ContentionRZUnlock        0 times
+00:33:12.743065 /PDM/CritSects/E1000#0/ContentionR3        0 times
+00:33:12.743067 /PDM/CritSects/E1000#0/ContentionRZLock        7 times
+00:33:12.743070 /PDM/CritSects/E1000#0/ContentionRZUnlock        0 times
+00:33:12.743086 /PDM/CritSects/E1000#0RX/ContentionR3        0 times
+00:33:12.743089 /PDM/CritSects/E1000#0RX/ContentionRZLock        0 times
+00:33:12.743092 /PDM/CritSects/E1000#0RX/ContentionRZUnlock        0 times
+00:33:12.743095 /PDM/CritSects/E1000#0TX/ContentionR3        0 times
+00:33:12.743097 /PDM/CritSects/E1000#0TX/ContentionRZLock        0 times
+00:33:12.743100 /PDM/CritSects/E1000#0TX/ContentionRZUnlock        0 times
+00:33:12.743103 /PDM/CritSects/GIMDev#0Auto/ContentionR3        0 times
+00:33:12.743106 /PDM/CritSects/GIMDev#0Auto/ContentionRZLock        0 times
+00:33:12.743108 /PDM/CritSects/GIMDev#0Auto/ContentionRZUnlock        0 times
+00:33:12.743111 /PDM/CritSects/HDA/ContentionR3         0 times
+00:33:12.743114 /PDM/CritSects/HDA/ContentionRZLock        0 times
+00:33:12.743117 /PDM/CritSects/HDA/ContentionRZUnlock        0 times
+00:33:12.743120 /PDM/CritSects/MM-HYPER/ContentionR3        0 times
+00:33:12.743139 /PDM/CritSects/MM-HYPER/ContentionRZLock        0 times
+00:33:12.743142 /PDM/CritSects/MM-HYPER/ContentionRZUnlock        0 times
+00:33:12.743144 /PDM/CritSects/NOP/ContentionR3         0 times
+00:33:12.743147 /PDM/CritSects/NOP/ContentionRZLock        0 times
+00:33:12.743150 /PDM/CritSects/NOP/ContentionRZUnlock        0 times
+00:33:12.743153 /PDM/CritSects/OHCI#0Irq/ContentionR3        0 times
+00:33:12.743156 /PDM/CritSects/OHCI#0Irq/ContentionRZLock        0 times
+00:33:12.743159 /PDM/CritSects/OHCI#0Irq/ContentionRZUnlock        0 times
+00:33:12.743163 /PDM/CritSects/PDM/ContentionR3         0 times
+00:33:12.743166 /PDM/CritSects/PDM/ContentionRZLock        0 times
+00:33:12.743169 /PDM/CritSects/PDM/ContentionRZUnlock        0 times
+00:33:12.743171 /PDM/CritSects/PGM/ContentionR3         0 times
+00:33:12.743174 /PDM/CritSects/PGM/ContentionRZLock       19 times
+00:33:12.743177 /PDM/CritSects/PGM/ContentionRZUnlock        0 times
+00:33:12.743180 /PDM/CritSects/TM Timer Lock/ContentionR3        0 times
+00:33:12.743183 /PDM/CritSects/TM Timer Lock/ContentionRZLock        0 times
+00:33:12.743186 /PDM/CritSects/TM Timer Lock/ContentionRZUnlock        0 times
+00:33:12.743188 /PDM/CritSects/TM VirtualSync Lock/ContentionR3        0 times
+00:33:12.743191 /PDM/CritSects/TM VirtualSync Lock/ContentionRZLock        0 times
+00:33:12.743194 /PDM/CritSects/TM VirtualSync Lock/ContentionRZUnlock        0 times
+00:33:12.743197 /PDM/CritSects/VGA#0/ContentionR3        0 times
+00:33:12.743200 /PDM/CritSects/VGA#0/ContentionRZLock        0 times
+00:33:12.743203 /PDM/CritSects/VGA#0/ContentionRZUnlock        0 times
+00:33:12.743206 /PDM/CritSects/VGA#0_IRQ/ContentionR3        0 times
+00:33:12.743209 /PDM/CritSects/VGA#0_IRQ/ContentionRZLock        0 times
+00:33:12.743211 /PDM/CritSects/VGA#0_IRQ/ContentionRZUnlock        0 times
+00:33:12.743214 /PDM/CritSects/VMMDev#0/ContentionR3        0 times
+00:33:12.743217 /PDM/CritSects/VMMDev#0/ContentionRZLock        0 times
+00:33:12.743220 /PDM/CritSects/VMMDev#0/ContentionRZUnlock        0 times
+00:33:12.743223 /PDM/CritSects/acpi#0/ContentionR3        0 times
+00:33:12.743226 /PDM/CritSects/acpi#0/ContentionRZLock        0 times
+00:33:12.743229 /PDM/CritSects/acpi#0/ContentionRZUnlock        0 times
+00:33:12.743232 /PDM/CritSects/mc146818#0Auto/ContentionR3        0 times
+00:33:12.743235 /PDM/CritSects/mc146818#0Auto/ContentionRZLock        0 times
+00:33:12.743238 /PDM/CritSects/mc146818#0Auto/ContentionRZUnlock        0 times
+00:33:12.743241 /PDM/CritSects/pcarch#0Auto/ContentionR3        0 times
+00:33:12.743244 /PDM/CritSects/pcarch#0Auto/ContentionRZLock        0 times
+00:33:12.743247 /PDM/CritSects/pcarch#0Auto/ContentionRZUnlock        0 times
+00:33:12.743249 /PDM/CritSects/pcbios#0Auto/ContentionR3        0 times
+00:33:12.743252 /PDM/CritSects/pcbios#0Auto/ContentionRZLock        0 times
+00:33:12.743255 /PDM/CritSects/pcbios#0Auto/ContentionRZUnlock        0 times
+00:33:12.743258 /PDM/CritSects/pckbd#0Auto/ContentionR3        0 times
+00:33:12.743261 /PDM/CritSects/pckbd#0Auto/ContentionRZLock        0 times
+00:33:12.743264 /PDM/CritSects/pckbd#0Auto/ContentionRZUnlock        0 times
+00:33:12.743266 /PDM/CritSects/pit#0/ContentionR3        0 times
+00:33:12.743269 /PDM/CritSects/pit#0/ContentionRZLock        0 times
+00:33:12.743272 /PDM/CritSects/pit#0/ContentionRZUnlock        0 times
+00:33:12.743275 /PDM/CritSects/usb-ohci#0Auto/ContentionR3        0 times
+00:33:12.743277 /PDM/CritSects/usb-ohci#0Auto/ContentionRZLock        0 times
+00:33:12.743280 /PDM/CritSects/usb-ohci#0Auto/ContentionRZUnlock        0 times
+00:33:12.743283 /PDM/CritSectsRw/IOM Lock/ContentionR3EnterExcl        0 times
+00:33:12.743286 /PDM/CritSectsRw/IOM Lock/ContentionR3EnterShared        0 times
+00:33:12.743289 /PDM/CritSectsRw/IOM Lock/ContentionRZEnterExcl        0 times
+00:33:12.743292 /PDM/CritSectsRw/IOM Lock/ContentionRZEnterShared        0 times
+00:33:12.743294 /PDM/CritSectsRw/IOM Lock/ContentionRZLeaveExcl        0 times
+00:33:12.743297 /PDM/CritSectsRw/IOM Lock/ContentionRZLeaveShared        0 times
+00:33:12.743300 /PDM/CritSectsRw/IOM Lock/R3EnterExcl      232 times
+00:33:12.743303 /PDM/CritSectsRw/IOM Lock/R3EnterShared   618765 times
+00:33:12.743306 /PDM/CritSectsRw/IOM Lock/RZEnterExcl        0 times
+00:33:12.743308 /PDM/CritSectsRw/IOM Lock/RZEnterShared  2810784 times
+00:33:12.743311 /PDM/Queue/DevHlp/AllocFailures         0 times
+00:33:12.743314 /PDM/Queue/DevHlp/Flush                 0 calls
+00:33:12.743317 /PDM/Queue/DevHlp/FlushLeftovers        0 times
+00:33:12.743320 /PDM/Queue/DevHlp/Insert                0 calls
+00:33:12.743323 /PDM/Queue/DevHlp/cItems                8 count
+00:33:12.743325 /PDM/Queue/DevHlp/cbItem               64 bytes
+00:33:12.743328 /PDM/Queue/Keyboard/AllocFailures        0 times
+00:33:12.743331 /PDM/Queue/Keyboard/Flush               0 calls
+00:33:12.743334 /PDM/Queue/Keyboard/FlushLeftovers        0 times
+00:33:12.743337 /PDM/Queue/Keyboard/Insert             44 calls
+00:33:12.743340 /PDM/Queue/Keyboard/cItems             64 count
+00:33:12.743343 /PDM/Queue/Keyboard/cbItem             32 bytes
+00:33:12.743345 /PDM/Queue/Mouse/AllocFailures          0 times
+00:33:12.743348 /PDM/Queue/Mouse/Flush                  0 calls
+00:33:12.743351 /PDM/Queue/Mouse/FlushLeftovers         0 times
+00:33:12.743354 /PDM/Queue/Mouse/Insert                 0 calls
+00:33:12.743357 /PDM/Queue/Mouse/cItems               128 count
+00:33:12.743360 /PDM/Queue/Mouse/cbItem                48 bytes
+00:33:12.743363 /PDM/Queue/Mouse_1/AllocFailures        0 times
+00:33:12.743365 /PDM/Queue/Mouse_1/Flush                0 calls
+00:33:12.743368 /PDM/Queue/Mouse_1/FlushLeftovers        0 times
+00:33:12.743371 /PDM/Queue/Mouse_1/Insert            5913 calls
+00:33:12.743374 /PDM/Queue/Mouse_1/cItems             128 count
+00:33:12.743377 /PDM/Queue/Mouse_1/cbItem              48 bytes
+00:33:12.743380 /PDM/Queue/SCSI-Eject/AllocFailures        0 times
+00:33:12.743383 /PDM/Queue/SCSI-Eject/Flush             0 calls
+00:33:12.743385 /PDM/Queue/SCSI-Eject/FlushLeftovers        0 times
+00:33:12.743388 /PDM/Queue/SCSI-Eject/Insert            0 calls
+00:33:12.743391 /PDM/Queue/SCSI-Eject/cItems            1 count
+00:33:12.743394 /PDM/Queue/SCSI-Eject/cbItem           40 bytes
+00:33:12.743398 /PDM/Tasks/000-E1000-Xmit-retriggered       11 times
+00:33:12.743401 /PDM/Tasks/000-E1000-Xmit-runs       2527 times
+00:33:12.743404 /PGM/CPU0/cA20Changes                   2 times
+00:33:12.743407 /PGM/CPU0/cGuestModeChanges        586908 times
+00:33:12.743410 /PGM/ChunkR3Map/Mapped                276 count
+00:33:12.743413 /PGM/ChunkR3Map/Unmapped                0 count
+00:33:12.743416 /PGM/ChunkR3Map/c                     276 count
+00:33:12.743419 /PGM/ChunkR3Map/cMax             4294967295 count
+00:33:12.743422 /PGM/LargePage/Recheck                  0 times
+00:33:12.743425 /PGM/LargePage/Refused                  2 times
+00:33:12.743427 /PGM/LargePage/Reused                 567 times
+00:33:12.743431 /PGM/Page/cAllPages                532811 count
+00:33:12.743434 /PGM/Page/cBalloonedPages               0 count
+00:33:12.743437 /PGM/Page/cHandyPages                  96 count
+00:33:12.743440 /PGM/Page/cLargePages                  81 count
+00:33:12.743443 /PGM/Page/cLargePagesDisabled           0 count
+00:33:12.743446 /PGM/Page/cMonitoredPages               0 count
+00:33:12.743449 /PGM/Page/cPrivatePages            149227 count
+00:33:12.743451 /PGM/Page/cPureMmioPages               41 count
+00:33:12.743454 /PGM/Page/cReadLockedPages              0 count
+00:33:12.743457 /PGM/Page/cReusedSharedPages            0 count
+00:33:12.743460 /PGM/Page/cSharedPages                  0 count
+00:33:12.743463 /PGM/Page/cWriteLockedPages             0 count
+00:33:12.743466 /PGM/Page/cWrittenToPages               0 count
+00:33:12.743468 /PGM/Page/cZeroPages               383543 count
+00:33:12.743472 /PGM/Pool/Grow                    9003478 ticks (     9003478 ticks,       1 times, max   9003478, min 9003478)
+00:33:12.743475 /PGM/ShMod/Check                        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:33:12.743479 /PGM/cRelocations                       0 times
+00:33:12.743482 /PROF/CPU0/EM/Capped                    0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:33:12.743485 /PROF/CPU0/EM/ForcedActions        726873 times
+00:33:12.743488 /PROF/CPU0/EM/Halted               705122 times
+00:33:12.743491 /PROF/CPU0/EM/NEMExec                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:33:12.743494 /PROF/CPU0/EM/NEMExecuteCalled          0 times
+00:33:12.743497 /PROF/CPU0/EM/RAWTotal                  0 times
+00:33:12.743499 /PROF/CPU0/EM/REMTotal                  0 times
+00:33:12.743502 /PROF/CPU0/EM/RecordedExits       5037554 times
+00:33:12.743505 /PROF/CPU0/EM/Total              3656441185815 ticks/call (7312882371630 ticks,       2 times, max 7115874122390, min 197008249240)
+00:33:12.743510 /PROF/CPU0/VM/Halt/Block          1249204 ns/call (1887282685092 ticks, 1510788 times, max 186873895, min       1)
+00:33:12.743513 /PROF/CPU0/VM/Halt/BlockInsomnia   156444 ns/call (155435089017 ticks,  993547 times, max  54802815, min       1)
+00:33:12.743517 /PROF/CPU0/VM/Halt/BlockOnTime    3043405 ns/call (262600205703 ticks,   86285 times, max  54969651, min    1171)
+00:33:12.743521 /PROF/CPU0/VM/Halt/BlockOverslept   220986 ns/call ( 95235434161 ticks,  430956 times, max   2171041, min   50002)
+00:33:12.743525 /PROF/CPU0/VM/Halt/R0HaltBlock     512992 ns/call (   205196979 ticks,     400 times, max  54929953, min     672)
+00:33:12.743528 /PROF/CPU0/VM/Halt/R0HaltBlockInsomnia   200737 ns/call (    79491904 ticks,     396 times, max  54801574, min     672)
+00:33:12.743532 /PROF/CPU0/VM/Halt/R0HaltBlockOnTime   945787 ns/call (      945787 ticks,       1 times, max    945787, min  945787)
+00:33:12.743536 /PROF/CPU0/VM/Halt/R0HaltBlockOverslept   189352 ns/call (      568058 ticks,       3 times, max    423952, min   59440)
+00:33:12.743539 /PROF/CPU0/VM/Halt/R0HaltExec           0 times
+00:33:12.743542 /PROF/CPU0/VM/Halt/R0HaltExec/FromBlock        0 times
+00:33:12.743545 /PROF/CPU0/VM/Halt/R0HaltExec/FromSpin        0 times
+00:33:12.743548 /PROF/CPU0/VM/Halt/R0HaltHistoryCounter   689039 times
+00:33:12.743551 /PROF/CPU0/VM/Halt/R0HaltHistorySucceeded        0 times
+00:33:12.743555 /PROF/CPU0/VM/Halt/R0HaltHistoryToRing3      146 times
+00:33:12.743557 /PROF/CPU0/VM/Halt/Timers             974 ns/call (  7713963498 ticks, 7913657 times, max   1119082, min       2)
+00:33:12.743561 /PROF/CPU0/VM/Halt/Yield             2084 ns/call (    22367587 ticks,   10731 times, max     25343, min       1)
+00:33:12.743565 /Public/NetAdapter/0/BytesReceived 10394481 bytes
+00:33:12.743568 /Public/NetAdapter/0/BytesTransmitted   214754 bytes
+00:33:12.743571 /Public/NetAdapter/0/e1000              0 
+00:33:12.743574 /Public/Storage/AHCI0/Port0/BytesRead  2274304 bytes
+00:33:12.743577 /Public/Storage/AHCI0/Port0/QueryBufAttempts        0 count
+00:33:12.743579 /Public/Storage/AHCI0/Port0/QueryBufSuccess        0 count
+00:33:12.743583 /Public/Storage/AHCI0/Port0/ReqsFlush        1 count
+00:33:12.743585 /Public/Storage/AHCI0/Port0/ReqsRead      100 count
+00:33:12.743588 /Public/Storage/AHCI0/Port0/ReqsSubmitted      101 count
+00:33:12.743591 /Public/Storage/AHCI0/Port0/ReqsSucceeded      101 count
+00:33:12.743594 /Public/Storage/AHCI0/Port1/BytesRead 132253696 bytes
+00:33:12.743597 /Public/Storage/AHCI0/Port1/QueryBufAttempts        0 count
+00:33:12.743600 /Public/Storage/AHCI0/Port1/QueryBufSuccess        0 count
+00:33:12.743603 /Public/Storage/AHCI0/Port1/ReqsRead     2672 count
+00:33:12.743619 /Public/Storage/AHCI0/Port1/ReqsSubmitted     2672 count
+00:33:12.743622 /Public/Storage/AHCI0/Port1/ReqsSucceeded     2672 count
+00:33:12.743625 /SELM/LoadHidSel/GstReadErrors          0 times
+00:33:12.743628 /SELM/LoadHidSel/NoGoodGuest            0 times
+00:33:12.743631 /TM/CPU/00/cNsExecuting          44914279557 ns
+00:33:12.743634 /TM/CPU/00/cNsHalted             1896488811214 ns
+00:33:12.743637 /TM/CPU/00/cNsOther              37187892779 ns
+00:33:12.743640 /TM/CPU/00/cNsTotal              1978590983550 ns
+00:33:12.743642 /TM/CPU/00/cPeriodsExecuting      5037554 count
+00:33:12.743645 /TM/CPU/00/cPeriodsHalted          705053 count
+00:33:12.743648 /TM/CPU/00/pctExecuting                12 %
+00:33:12.743651 /TM/CPU/00/pctHalted                   83 %
+00:33:12.743654 /TM/CPU/00/pctOther                     3 %
+00:33:12.743658 /TM/CPU/pctExecuting                   12 %
+00:33:12.743660 /TM/CPU/pctHalted                      83 %
+00:33:12.743680 /TM/CPU/pctOther                        3 %
+00:33:12.743683 /TM/MaxHzHint                           0 Hz
+00:33:12.743686 /TM/PIT/Handler                         0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:33:12.743689 /TM/PIT/Irq                             0 times
+00:33:12.743692 /TM/R0/1nsSteps                      1629 times
+00:33:12.743695 /TM/R3/1nsSteps                      9101 times
+00:33:12.743698 /TM/TSC/offCPU0                  258160312692 ticks
+00:33:12.743701 /TM/VirtualSync/CurrentOffset      199028 ns
+00:33:12.743717 /VUSB/0/cUrbsInPool                     0 count
+00:33:12.743721 ********************* End of statistics **********************
+00:33:12.743832 VUSB: Detached 'HidMouse' from port 1 on RootHub#0
+00:33:12.745021 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.748298 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.750565 NAT: Zone(nm:mbuf_cluster, used:0)
+00:33:12.751318 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.751379 NAT: Zone(nm:mbuf_packet, used:0)
+00:33:12.751387 NAT: Zone(nm:mbuf, used:1)
+00:33:12.751487 NAT: Zone(nm:mbuf_jumbo_pagesize, used:0)
+00:33:12.752162 NAT: Zone(nm:mbuf_jumbo_9k, used:0)
+00:33:12.752565 NAT: Zone(nm:mbuf_jumbo_16k, used:0)
+00:33:12.752802 NAT: Zone(nm:mbuf_ext_refcnt, used:0)
+00:33:12.752981 E1000#0: Interrupt attempts: 14848
+00:33:12.752987 E1000#0: Interrupts raised : 5750
+00:33:12.752990 E1000#0: Interrupts lowered: 261
+00:33:12.752994 E1000#0: ICR outside ISR   : 0
+00:33:12.752997 E1000#0: IMS raised ints   : 468
+00:33:12.753000 E1000#0: Interrupts skipped: 7671
+00:33:12.753003 E1000#0: Masked interrupts : 1427
+00:33:12.753007 E1000#0: Early interrupts  : 0
+00:33:12.753010 E1000#0: Late interrupts   : 124
+00:33:12.753013 E1000#0: Lost interrupts   : 0
+00:33:12.753016 E1000#0: Interrupts by RX  : 8775
+00:33:12.753020 E1000#0: Interrupts by TX  : 2537
+00:33:12.753023 E1000#0: Interrupts by ICS : 885
+00:33:12.753027 E1000#0: Interrupts by RDTR: 0
+00:33:12.753030 E1000#0: Interrupts by RDMT: 0
+00:33:12.753033 E1000#0: Interrupts by TXQE: 0
+00:33:12.753037 E1000#0: TX int delay asked: 0
+00:33:12.753040 E1000#0: TX delayed:         0
+00:33:12.753043 E1000#0: TX delay expired:   0
+00:33:12.753046 E1000#0: TX no report asked: 2722
+00:33:12.753050 E1000#0: TX abs timer expd : 0
+00:33:12.753053 E1000#0: TX int timer expd : 0
+00:33:12.753056 E1000#0: RX abs timer expd : 0
+00:33:12.753060 E1000#0: RX int timer expd : 0
+00:33:12.753063 E1000#0: TX CTX descriptors: 2510
+00:33:12.753066 E1000#0: TX DAT descriptors: 2722
+00:33:12.753070 E1000#0: TX LEG descriptors: 27
+00:33:12.753091 E1000#0: Received frames   : 8775
+00:33:12.753096 E1000#0: Transmitted frames: 2537
+00:33:12.753101 E1000#0: TX frames up to 1514: 2537
+00:33:12.753105 E1000#0: TX frames up to 2962: 0
+00:33:12.753109 E1000#0: TX frames up to 4410: 0
+00:33:12.753113 E1000#0: TX frames up to 5858: 0
+00:33:12.753116 E1000#0: TX frames up to 7306: 0
+00:33:12.753120 E1000#0: TX frames up to 8754: 0
+00:33:12.753124 E1000#0: TX frames up to 16384: 0
+00:33:12.753127 E1000#0: TX frames up to 32768: 0
+00:33:12.753132 E1000#0: Larger TX frames    : 0
+00:33:12.753136 E1000#0: Max TX Delay        : 0
+00:33:12.754602 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.754819 GIM: KVM: Resetting MSRs
+00:33:12.756868 Changing the VM state from 'DESTROYING' to 'TERMINATED'
+00:33:12.758139 Console: Machine state changed to 'PoweredOff'
+00:33:12.761420 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.763414 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.765826 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.768261 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.769654 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.771282 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.773169 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.775601 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.777944 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.779396 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.781676 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.783544 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.785212 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.786697 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.790250 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.793782 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.798211 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.799675 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.801052 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.802487 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.803710 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.804726 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.805755 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.806874 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.808864 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.809946 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.811047 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.812051 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.813031 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.814023 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.815205 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.816446 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.817581 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.819689 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.820687 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.822061 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.823582 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.824742 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.826383 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.827490 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.829053 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.830492 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.831604 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.832626 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.833616 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.834793 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.836369 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.837602 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.838738 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.839791 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.841241 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.842328 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.843711 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.844979 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.846074 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.847101 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.848348 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.849483 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.850774 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.851795 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.852816 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.853850 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.854880 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.856065 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.857343 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.858389 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.859407 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.860395 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.861409 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.862437 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.863635 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.864957 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.866087 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.867292 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.868485 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.869477 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.871160 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.872355 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.873388 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.874697 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.875840 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.877148 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.878621 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.879776 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.880945 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.882196 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.883278 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.884390 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.885488 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.886654 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.887794 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.888850 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.889830 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.891147 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.892772 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.894499 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.896133 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.897571 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.898975 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.900231 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.901406 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.902460 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.903642 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.904661 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.906283 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.907949 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.909017 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.910018 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.911031 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.912212 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.913484 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.914709 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.915774 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.916951 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.918004 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.919333 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.920536 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.921590 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.922554 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.923613 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.924629 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.925684 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.927053 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.928139 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.929221 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.930228 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.931369 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.932771 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.934079 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.935103 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.936247 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.937514 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.938686 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.940008 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.941430 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.942500 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.943600 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.944613 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.945722 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.947178 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.948844 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.949968 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.951096 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.952527 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.953701 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.955486 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={872da645-4a9b-1727-bee2-5585105b9eed} aComponent={ConsoleWrap} aText={The virtual machine is being powered down}, preserve=false aResultDetail=0
+00:33:12.958363 GUI: Request to close Runtime UI because VM is powered off already.
+00:33:12.958374 GUI: Passing request to close Runtime UI from machine-logic to UI session.
