@@ -6,18 +6,20 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.15-windows">
-  <Machine uuid="{281dcbdf-832d-4c3d-824b-aad8e60f1ce3}" name="420Project" OSType="ArchLinux_64" snapshotFolder="Snapshots" lastStateChange="2020-09-02T17:10:10Z">
+  <Machine uuid="{281dcbdf-832d-4c3d-824b-aad8e60f1ce3}" name="420Project" OSType="ArchLinux_64" snapshotFolder="Snapshots" lastStateChange="2020-09-10T19:46:55Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{cfa34df8-5418-4244-9e4a-13ce6f0171d4}" location="420Project.vdi" format="VDI" type="Normal"/>
       </HardDisks>
       <DVDImages>
         <Image uuid="{89486442-d0d7-47fa-bbcd-5f037acdac9b}" location="D:/Austin/Important/Torrent Files/archlinux-2020.09.01-x86_64.iso"/>
+        <Image uuid="{b6124b62-50e4-46ee-8556-77561ea7e6c7}" location="C:/Users/Austin/Downloads/archlinux-2020.09.01-x86_64.iso"/>
       </DVDImages>
     </MediaRegistry>
     <ExtraData>
+      <ExtraDataItem name="GUI/LastCloseAction" value="PowerOff"/>
       <ExtraDataItem name="GUI/LastGuestSizeHint" value="800,600"/>
-      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="591,222,800,642"/>
+      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="-967,324,720,442"/>
     </ExtraData>
     <Hardware>
       <CPU>
@@ -29,7 +31,7 @@
       <HID Pointing="USBTablet"/>
       <Paravirt provider="Default"/>
       <Display controller="VBoxSVGA" VRAMSize="27"/>
-      <VideoCapture file="." fps="25"/>
+      <VideoCapture screens="1" file="." fps="25"/>
       <RemoteDisplay enabled="false"/>
       <BIOS>
         <IOAPIC enabled="true"/>
@@ -48,7 +50,7 @@
       <AudioAdapter controller="HDA" driver="DirectSound" enabled="true" enabledIn="false"/>
       <Clipboard/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="en_US" timestamp="1599066611114131900" flags=""/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="en_US" timestamp="1599766647322777700" flags=""/>
       </GuestProperties>
     </Hardware>
     <StorageControllers>
@@ -56,9 +58,7 @@
         <AttachedDevice type="HardDisk" hotpluggable="false" port="0" device="0">
           <Image uuid="{cfa34df8-5418-4244-9e4a-13ce6f0171d4}"/>
         </AttachedDevice>
-        <AttachedDevice passthrough="false" type="DVD" hotpluggable="false" port="1" device="0">
-          <Image uuid="{89486442-d0d7-47fa-bbcd-5f037acdac9b}"/>
-        </AttachedDevice>
+        <AttachedDevice passthrough="false" type="DVD" hotpluggable="false" port="1" device="0"/>
       </StorageController>
     </StorageControllers>
   </Machine>
