@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.15-windows">
-  <Machine uuid="{281dcbdf-832d-4c3d-824b-aad8e60f1ce3}" name="420Project" OSType="ArchLinux_64" snapshotFolder="Snapshots" lastStateChange="2020-09-10T19:46:55Z">
+  <Machine uuid="{281dcbdf-832d-4c3d-824b-aad8e60f1ce3}" name="420Project" OSType="ArchLinux_64" snapshotFolder="Snapshots" lastStateChange="2020-09-10T20:03:43Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{cfa34df8-5418-4244-9e4a-13ce6f0171d4}" location="420Project.vdi" format="VDI" type="Normal"/>
@@ -19,7 +19,7 @@
     <ExtraData>
       <ExtraDataItem name="GUI/LastCloseAction" value="PowerOff"/>
       <ExtraDataItem name="GUI/LastGuestSizeHint" value="800,600"/>
-      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="-967,324,720,442"/>
+      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="-967,324,800,642"/>
     </ExtraData>
     <Hardware>
       <CPU>
@@ -50,7 +50,7 @@
       <AudioAdapter controller="HDA" driver="DirectSound" enabled="true" enabledIn="false"/>
       <Clipboard/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="en_US" timestamp="1599766647322777700" flags=""/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="en_US" timestamp="1599767215195911900" flags=""/>
       </GuestProperties>
     </Hardware>
     <StorageControllers>
